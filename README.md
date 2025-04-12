@@ -28,6 +28,35 @@ In total when active, the device consumes `~270 mA`. Given
 that the battery has a capacity of `1800 mAh`,
 we should expect a battery life of `~6.5 hours` of continuous use.
 
+## Pin mapping for the ESP32
+
+| Pin Name | Description |                                                               
+| -------- | ----------- |
+| EN       | Reset |
+| IO0      | Interrupt RTC |
+| IO1      | Oscilator RTC |
+| IO2      | SPI MISO |
+| IO3      | Status display |
+| IO4      | SD Card |
+| IO5      | Data/Command |
+| IO6      | SPI clock |
+| IO7      | SPI data out |
+| IO9      | Boot |
+| IO10     | SPI E-Paper display command |
+| IO11     | EPD |
+| IO12     | Flash |
+| IO13     | USB Data - |
+| IO14     | USB Data + |
+| IO15     | Navigation |
+| IO16     | TX |
+| IO17     | RX |
+| IO18     | Reset DS3231 |
+| IO19     | I2C Power |
+| IO20     | EPD Power |
+| IO21     | BME688 |
+| IO22     | BME688 |
+| IO23     | Reset display |
+
 ## BOM
 
 | Piece Name                  | Quantity | Link                                                                                                                                                                                                               |
